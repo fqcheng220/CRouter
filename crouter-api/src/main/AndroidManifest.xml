@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fqcheng220.crouterapi">
+  <application>
+    <!--<activity-->
+        <!--android:name=".ui.CRouterIntermediateActivity"-->
+        <!--android:theme="@style/IntermediateActivityStyle"></activity>-->
+  </application>
+</manifest>

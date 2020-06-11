@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btn1"
+      android:text="有回调"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      />
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btn2"
+      android:text="无回调"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      />
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btn3"
+      android:text="找不到路由"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      />
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btn4"
+      android:text="不支持返回"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      />
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btn5"
+      android:text="Context异常，不支持返回"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      />
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btn6"
+      android:text="跳转需要登陆的页面"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      />
+</LinearLayout>
